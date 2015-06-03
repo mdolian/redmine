@@ -47,7 +47,7 @@ platforms :jruby do
   gem "activerecord-jdbc-adapter", "~> 1.3.2"
 end
 
-gem "mysql2", "~> 0.3.11"
+gem "mysql"
 
 group :development do
   gem "rdoc", ">= 2.4.2"
